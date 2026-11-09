@@ -13,4 +13,5 @@ jobs:
       - name: Muestra mensaje
         run: |
           echo "Hola"
-          echo "Fecha" date
+          echo "Fecha"
+          echo date
