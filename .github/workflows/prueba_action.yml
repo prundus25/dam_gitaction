@@ -12,4 +12,5 @@ jobs:
     steps:
       - name: Muestra mensaje
         run: |
-          echo  "Running tests..."
+          echo "Hola"
+          echo "Fecha" date
