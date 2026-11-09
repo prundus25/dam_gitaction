@@ -1,16 +1,15 @@
-name: CI
+name: GitActionPrueba
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
-  build:
+  mostrar_mensaje:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - name: Run tests
+      - name: Muestra mensaje
         run: |
           echo  "Running tests..."
-          #comandos prueba
