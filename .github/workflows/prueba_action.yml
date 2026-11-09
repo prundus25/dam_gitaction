@@ -15,4 +15,4 @@ jobs:
           echo "Hola"
           echo "Fecha"
           date
-          javac -version
+          java -version
