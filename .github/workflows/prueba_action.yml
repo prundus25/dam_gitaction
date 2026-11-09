@@ -14,4 +14,4 @@ jobs:
         run: |
           echo "Hola"
           echo "Fecha"
-          echo date
+          date
